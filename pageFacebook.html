@@ -20,8 +20,8 @@
 
       <div id="search-bar" class="input-group input-group-sm w200px me-auto">
         <span class="input-group-text">搜尋</span>
-        <input type="text" class="form-control border border-start-0 border-end-0"
-          aria-label="Amount (to the nearest dollar)">
+        <input type="text" class="form-control border border-start-0 border-end-0 focus-ring"
+          style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), 0)" aria-label="Amount (to the nearest dollar)">
         <span class="input-group-text">
           <i class="fa-solid fa-magnifying-glass"></i>
         </span>
@@ -37,8 +37,22 @@
       <i class="fa-sharp fa-solid fa-sort-down text-fb8 mb-2"></i>
     </div>
   </nav>
+
+
   <main>
-    <div class="container">2</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-2 py-3">
+          <div class="hstack gap-2">
+            <div class="img-head w30px h30px bg-fb5 rounded-circle placeholder"></div>
+            <span class="placeholder col-7"></span>
+          </div>
+
+        </div>
+        <div class="col">2</div>
+        <div class="col-3">3</div>
+      </div>
+    </div>
   </main>
 
 
