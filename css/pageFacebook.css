@@ -110,7 +110,9 @@ body {
   background-color: #dfe1ee;
 }
 
+#search-bar {
+  transition: all 0.3s;
+}
 #search-bar.active {
   width: 400px;
-  transition: all 0.3s;
 }/*# sourceMappingURL=pageFacebook.css.map */
