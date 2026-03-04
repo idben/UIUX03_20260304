@@ -8,6 +8,8 @@
     .container {
       display: flex;
       background-color: #f7e8e8;
+      align-items: flex-end;
+      gap: 10px;
       width: 600px;
       height: 480px;
 
@@ -15,9 +17,16 @@
         width: 100px;
         height: 200px;
         background-color: #e94040;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 60px;
+        color: #fff;
 
         &:nth-child(2) {
           height: 300px;
+          margin-left: auto;
         }
 
         &:nth-child(3) {
