@@ -26,8 +26,16 @@
   height: 200px;
 }
 
+.w200px {
+  width: 200px;
+}
+
 .h300px {
   height: 300px;
+}
+
+.w300px {
+  width: 300px;
 }
 
 .w400px {
@@ -100,4 +108,9 @@
 
 body {
   background-color: #dfe1ee;
+}
+
+#search-bar.active {
+  width: 400px;
+  transition: all 0.3s;
 }/*# sourceMappingURL=pageFacebook.css.map */

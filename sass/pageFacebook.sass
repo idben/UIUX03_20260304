@@ -20,7 +20,9 @@ $fbColor: #3b5998, #5a6589, #4e69aa, #808cba, #9fa8cb, #bfc4dc, #dfe1ee, #2b3c63
 @include hnpx(50)
 @include wnpx(50)
 @include hnpx(200)
+@include wnpx(200)
 @include hnpx(300)
+@include wnpx(300)
 @include wnpx(400)
 // @include bgc(bg-fb1, $fbColor1)
 // @include bgc(bg-fb2, $fbColor2)
@@ -34,3 +36,8 @@ $fbColor: #3b5998, #5a6589, #4e69aa, #808cba, #9fa8cb, #bfc4dc, #dfe1ee, #2b3c63
 
 body
   background-color: nth($fbColor, 7)
+
+#search-bar
+  &.active
+    width: 400px
+    transition: all 0.3s
