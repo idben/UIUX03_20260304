@@ -1,9 +1,17 @@
+.h10px {
+  height: 10px;
+}
+
 .h25px {
   height: 25px;
 }
 
 .w25px {
   width: 25px;
+}
+
+.w10px {
+  width: 10px;
 }
 
 .h30px {
