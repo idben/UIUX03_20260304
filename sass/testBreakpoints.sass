@@ -1,0 +1,28 @@
+body
+  &::after
+    content: "XS"
+    position: absolute
+    right: 0
+    top: 0
+    color: #ec1c1c
+    font-size: 100px
+    font-weight: bold
+    // Small devices (landscape phones, 576px and up)
+    @media (width >= 576px)
+      content: "SM"
+
+    // Medium devices (tablets, 768px and up)
+    @media (width >= 768px)
+      content: "MD"
+
+    // Large devices (desktops, 992px and up)
+    @media (width >= 992px)
+      content: "LG"
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (width >= 1200px)
+      content: "XL"
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (width >= 1400px)
+      content: "XXL"
