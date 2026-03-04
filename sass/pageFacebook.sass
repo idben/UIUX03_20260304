@@ -31,3 +31,6 @@ $fbColor: #3b5998, #5a6589, #4e69aa, #808cba, #9fa8cb, #bfc4dc, #dfe1ee, #2b3c63
 @for $i from 1 through 8
   @include bgc(bg-fb#{$i}, nth($fbColor, $i))
   @include color(text-fb#{$i}, nth($fbColor, $i))
+
+body
+  background-color: nth($fbColor, 7)
