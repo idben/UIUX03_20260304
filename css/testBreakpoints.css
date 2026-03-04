@@ -7,7 +7,7 @@ body::after {
   font-size: 100px;
   font-weight: bold;
 }
-@media (width >= 576px) {
+@media (576px <= width < 768px) {
   body::after {
     content: "SM";
   }
